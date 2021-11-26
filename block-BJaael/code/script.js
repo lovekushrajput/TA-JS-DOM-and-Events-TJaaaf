@@ -8,6 +8,8 @@ for(let i=0; i<500;i++){
     div.style.display = "flex"
     div.style.alignItems = "center"
     div.style.justifyContent = "center"
+    let randomNumber = Math.floor(Math.random() * 500)
+    div.innerText = randomNumber
     section.append(div)  
 }
 
