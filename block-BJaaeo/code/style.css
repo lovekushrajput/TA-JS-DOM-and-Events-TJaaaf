@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Custom  */
+center{
+    margin-bottom: 2rem;
+}
+h1{
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+.screen{
+    font-size: 4rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5rem;
+    height: 6rem;
+    width: 35rem;
+    background-color: black;
+    border-radius: 1rem;
+    color:white;
+}
+.calculator{
+   display: inline-flex;
+   
+}
+.plus,.minus,.multiply,.divide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    margin-top: 2.7rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    height: 4.5rem;
+    width: 7.7rem;
+    color: white;
+    background-color: rgb(112,1,51);
+    margin-left: 0.7rem;
+}
+
+.equal{
+    width: 7.5rem;
+    height: 22.7rem;
+    background-color: rgb(1,128,128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+}
+
+.seven,.eight,.nine{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    height: 4.5rem;
+    width: 7.7rem;
+    background-color: rgb(207,207,207);
+    margin-left: 0.4rem;
+}
+
+.alpha{
+    background-color: rgb(61,27,16);
+    color: rgb(253,226,194);
+}
+.number{
+    margin-right: 8.4rem;
+}
+
+.bigNumber{
+    position: relative;
+}
+.equal{
+    margin-right: 22rem;
+    bottom: 0;
+    left: 1;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
