@@ -91,3 +91,43 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+
+
+
+
+
+.page{
+  width: 30%;
+  background-color: white;
+  height: 80vh;
+}
+h1{
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+h2{
+  margin-left: 20px;
+  padding-bottom: 0.6rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.close{
+  font-size: 1rem;
+  border: none;
+  background-color: white;
+}
+.close-btn{
+  
+  display: flex;
+  justify-content: flex-end;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
