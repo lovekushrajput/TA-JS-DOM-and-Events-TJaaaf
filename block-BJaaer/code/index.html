@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Handeling Forms 👇</title>
+  </head>
+  <body>
+    <div>
+      <form class="container">
+        <!-- 0 -->
+        <div class="form-control">
+          <label for="name">Your Name:</label>
+          <input
+            id="name"
+            type="text"
+            name="text"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-control">
+          <!-- 1 -->
+          <label for="email">Your Email:</label>
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-control">
+          <!-- 2 -->
+          <label for="movies">What do you love?</label>
+          <select id="gender" name="gender">
+            <option value="movies">Movies</option>
+            <option value="series">Series</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+
+        <div class="form-control">
+          <!-- 3 -->
+          <label for="color">Choose a color</label>
+          <input
+            id="color"
+            type="color"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-control">
+          <!-- 4 -->
+          <label for="range"> Rate the movie Inception out of 10 </label>
+          <input
+            id="range"
+            type="range"
+            max="10"
+            step="1"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-control">
+          <!-- 5 -->
+          <label>Book genre you love?</label>
+
+          <div>
+            <input
+              type="radio"
+              id="fiction"
+              name="drone"
+              value="fiction"
+              checked
+            />
+            <label for="fiction">Fiction</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              id="non-fiction"
+              name="drone"
+              value="non-fiction"
+            />
+            <label for="non-fiction">Non Fiction</label>
+          </div>
+
+          <div>
+            <input type="radio" id="adventure" name="drone" value="adventure" />
+            <label for="adventure">Adventure</label>
+          </div>
+        </div>
+        <div class="form-control terms">
+          <input type="checkbox" id="terms" name="terms" />
+          <label for="terms">I Agree to Terms</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+
+
+
+<!-- next page -->
+<section>
+    <div class="page">
+      <div class="close-btn">
+        <button class="close">close</button>
+      </div>
+   
+      <h1>hello
+        <span class="hello"></span>
+      </h1>
+
+      <h2>Email:
+        <span class="email"></span>
+      </h2>
+
+      <h2>Youe Love:
+        <span class="love"></span>
+      </h2>
+
+      <h2>Color:
+        <span class="color"></span>
+      </h2>
+
+      <h2>Rating:
+        <span class="rating"></span>
+      </h2>
+
+      <h2>Book Genre:
+        <span class="book"></span>
+      </h2>
+
+      <h2>
+        <span class="condition"></span>
+      </h2>
+      
+    </div>
+  </section>
+
+ 
+
+
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
