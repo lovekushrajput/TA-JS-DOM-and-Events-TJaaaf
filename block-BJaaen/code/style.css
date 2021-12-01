@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* custum*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    border-top-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    margin-top: 1rem;
+    max-width: 1200px;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   /* width: 100%; */
+   
+}
+.shadow{
+    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+}
+ 
+.heading{
+    border-top-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    display: inline-block;
+    background-color: rgb(30,144,255);
+    padding: 1.7rem;
+    color: white;
+   /* width: 100%; */
+}
+h1{
+    text-align: center;
+  font-size: 3rem;  
+ 
+}
+h2{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 3rem;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+    display: flex;
+
+}
+a{
+    color: rgb(30,144,255);
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+.icon2 i {
+color: red;
+}
+.refresh{
+    font-size: 2.4rem;
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+
+}
+.refresh{
+    color: black;
+}
+.overall{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.computer {
+    color: red;
+}
+.score-player,.score-computer{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
