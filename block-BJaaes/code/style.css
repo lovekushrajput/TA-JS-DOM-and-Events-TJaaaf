@@ -1,0 +1,102 @@
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* custum style */
+body{
+  background-color: rgb(134, 151, 158);
+}
+.container{
+  margin-top: 1rem;
+  display: inline-block;
+  background-color: white;
+  max-width: 600px;
+}
+
+h1{
+  background-color: grey;
+  padding: 0.7rem;
+  font: 0.7rem;
+}
+ 
+
+input{
+  justify-content: flex-start;
+  display: flex;
+  border: 1px solid rgb(212,212,212);
+  border-radius: 0.2rem;
+  width: 100%;
+  padding: 0.4rem 0;
+}
+.form-control{
+  margin-top: 1rem;
+}
+
+#Confirm-Password{
+  margin-bottom: 1rem;
+}
+.main{
+  padding: 0.7rem;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+input:invalid{
+  border: 2px solid red;
+}
+
+/* input:required{
+  /* background-color: rgba(207, 131, 131,1); */
+  /* border: 2px solid  yellow ; */
+
+
+input:valid{
+  border: 1px solid rgb(97, 238, 97);
+}
+
+small{
+  color: red;
+}
+
+#btn{
+  border: none;
+  background-color: sandybrown;
+  color: white;
+  padding: 0.5rem 8rem;
+}
